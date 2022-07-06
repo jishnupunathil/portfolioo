@@ -41,6 +41,6 @@ app.get('/*', function(req, res) {
 
 
 
-app.listen(5000,(res)=>{
+app.listen(process.env.PORT || 5000,(res)=>{
     console.log('listening to port 5000');
 })
