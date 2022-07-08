@@ -3,6 +3,7 @@ const app= express()
 const mongoose = require('mongoose')
 const bodyParser=require('body-parser')
 const path = require('path')
+const uri = process.env.MONGODB_URI
 
 
 
