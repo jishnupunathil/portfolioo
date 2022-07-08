@@ -1,4 +1,5 @@
 const mongoose = require('mongoose')
+const uri = process.env.MONGODB_URI;
 
 mongoose.connect('mongodb+srv://jishnu:uesHTxFngUxdbieB@cluster0.myxbs.mongodb.net/testmonial_db?retryWrites=true&w=majority')
 .then((res)=>{
